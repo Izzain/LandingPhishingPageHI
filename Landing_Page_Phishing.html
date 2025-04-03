@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>COMPANY Phishing Simulation</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .header {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    .header img {
+      vertical-align: middle;
+    }
+    .header h3 {
+      display: inline;
+      margin-left: 10px;
+    }
+    .navLink {
+      display: inline-block;
+      padding: 10px;
+    }
+    .jumbotron {
+      background: #fff;
+      border-radius: 8px;
+      padding: 30px;
+      margin-top: 30px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .tip-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .tip-card:hover {
+      transform: scale(1.02);
+    }
+    .tip-card h1 {
+      font-size: 1.5em;
+      color: #EF5350;
+    }
+    .tip-card h2 {
+      font-size: 1.3em;
+      margin-top: 10px;
+      color: #333;
+    }
+    .tip-card p {
+      font-size: 1.1em;
+      color: #555;
+    }
+    /* Adjustments for the gray box (pre) */
+    .tip-card pre {
+      background: #f0f0f0;
+      padding: 10px;
+      border-radius: 4px;
+      display: inline-block; /* keep the box as wide as its contents */
+      max-width: 100%;       /* prevent overflow beyond the tip card */
+      white-space: pre-wrap; /* allow text wrapping */
+      word-wrap: break-word; /* wrap long words if necessary */
+      margin: 0 auto;        /* center it horizontally */
+    }
+    .caution-banner {
+      border: 1px solid #ffeeba;
+      background-color: #fff3cd;
+      margin: 10px auto;
+      display: inline-block;
+      text-align: left;
+      padding: 10px;
+      color: #856404;
+      font-size: 1em;
+      line-height: 1.4;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="navLink">
+      <img src="companyImageSrc" height="50" alt="Company Logo">
+      <h3><strong>Phishing Test</strong></h3>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="jumbotron">
+      <h2>You clicked on a simulated phishing test.</h2>
+      <h3>Learn how to recognize phishing attempts and stay safe</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="tip-card">
+          <h1>Tip #1</h1>
+          <h2>Stop, Look, Think</h2>
+          <p>Check if something looks off. Verify the sender’s address; a subtle misspelling may indicate a phishing attempt.</p>
+          <pre>Microsoft Team &lt;microsoft-noreply@<span style="color:red; font-weight:bold; font-style:italic;"> micrasoft</span>.com&gt;</pre>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tip-card">
+          <h1>Tip #2</h1>
+          <h2>Spot the Red Flag</h2>
+          <p>At COMPANY, emails from external senders are flagged with a caution banner. Look out for these alerts.</p>
+          <div class="caution-banner">
+            <strong>CAUTION:</strong> This email originated from outside of this organization.
+            Do not click on links or open attachments unless you recognize the sender
+            and know the content is safe.
+          </div>
+          <p style="font-size: 0.95em; color: #555;">
+            This is the caution banner if the email came from outside of the organization.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tip-card">
+          <h1>Tip #3</h1>
+          <h2>If in Doubt, Throw it Out</h2>
+          <p>If an email appears suspicious, err on the side of caution. Forward it to <a href="mailto:security@handalindah.com.my">security@handalindah.com.my</a> for review.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Stay vigilant and always verify the authenticity of unexpected emails.</p>
+    </div>
+  </div>
+</body>
+</html>
